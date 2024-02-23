@@ -24,4 +24,9 @@
 @mixin flex-center-horiz {
   display: flex;
   justify-content: center;
+
+  @mixin simple-grid ($gap: 1rem) {
+    display: grid;
+    gap: $gap;
+}
 }
