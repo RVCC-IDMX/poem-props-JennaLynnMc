@@ -5,7 +5,7 @@
   line-height: var(--font-lineheight-1);
   font-size: var(--font-size-fluid-2);
   font-weight: var(--font-weight-9);
-  font-family: var(--font-sans);
+  font-family: var(--font-Lobster);
 
   // https: //css-tricks.com/positioning-overlay-content-with-css-grid/
 
@@ -19,8 +19,8 @@
   }
 
   &__title {
-    font-size: var(--font-size-fluid-3);
-    color: var(--gray-2);
+    font-size: var(--font-size-fluid-2);
+    color: var(--pink-7);
     text-align: center;
     z-index: 1;
     padding-top: 10%;
