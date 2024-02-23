@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A modern CSS page">
     <meta name="generator" content="Eleventy v1.2" />
-    <title>IDMX 11ty Sass Starter</title>
+    <title>She is a flower by Shefali Dang</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
     <link rel="stylesheet" href="css/main.css">
@@ -20,11 +20,17 @@
   <body>
       <header class="hero">
        <h1 class="hero__title">She is a flower</h1>
+       <figure class="hero-figure">
+        <img class="hero-figure__img" width="900" height="1355" src="./images/pinkflower.jpg" alt="a flower picture I took to go with the poem">
+      </figure>
       </header>
 
-
-      <main class="poem">
-            <div class="stanza">
+      <main>
+      <article class="poem">
+        <h2 class="poem__subtitle">
+          <span>A Poem by&nbsp;</span><span>Shefali Dang</span>
+        </h2>
+            <div class="poem__stanza">
                 <p>She is a flower</p>
                 <p>Holding herself together</p>
                 <p>By her roots</p>
@@ -32,11 +38,8 @@
                 <p>Of rain or tears</p>
                 <p>To make herself stronger</p>
             </div>
-            <figure class="hero-figure__img" width="900" height="1355"">
-                <img src="/src/images/pinkflower.jpg" alt="a picture of a flower I took to go with poem">
-                <figcaption class="figcap">Image by Annie Spratt</figcaption>
-            </figure>
-            <div class="stanza">
+
+            <div class="poem__stanza">
                 <p>When she is ready</p>
                 <p>She will turn towards</p>
                 <p>The love shining on her</p>
@@ -44,10 +47,15 @@
                 <p>To reveal the Magnificent beauty</p>
                 <p>That she is</p>
             </div>
-        </main>
-        <footer class="author">
-            <p>Poem by Shefali Dang, Image by Jenna McIntyre  </p>
+          </main>
+
+        <footer class="footer">
+          <p class="copyright">&copy; Jenna McIntyre 2024</p>
+          <p class="credits">Photo taken by Jenna McIntyre
+            Favicon by Aarn Giri
+            Poem by Shefali Dang</p>
         </footer>
+
         <script src="js/app.js"></script>
     </body>
 </html>
